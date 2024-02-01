@@ -18,36 +18,131 @@
 
     </head>
     <body>
-        <div>
-            <nav style="background-color: #FF0000;" class="navbar  text-white fixed-top">
-                <a href="/" class="navbar-brand flex-grow-1">
-                    aa
-                </a>
-                <ul class="nav text-white ">
-                    <li>
-                        <div class="dropdown">
-                            <button class="dropbtn">Dropdown</button>
-                            <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                  
-                        <a href="" class="nav-link tex-reset d-none d-xl-flex" >Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href=""class=" nav-link tex-reset d-none d-xl-flex" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  >
-                            funcionario
-                        </a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link tex-reset d-none d-xl-flex "  data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Cozinha</a></li>
-                    <li class="nav-item"><a href=""class="nav-link tex-reset d-none d-xl-flex ">Financeiro</a></li>
-                    <li class="nav-item"><a href="" class="nav-link text-reset d-none d-xl-flex">Usuario</a></li>
-                </ul>
-            </nav>
+
+           <div class="d-flex justify-content-between">
+               <nav  class="navbar navbar-expand-lg navbar-danger  bg-danger    text-white fixed-top">
+                   <a href="">aaaa</a>
+                   <div class="container">
+                       <div class=" container-fluid float-right   collapse  navbar-collapse " id="conteudoNavbarSuportado">
+                           <ul class="navbar-nav text-white  mr-auto"> 
+                            <li class="mr-4 text-white  nav-item dropdown" ><a class="text nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Inicio</a></li>
+                               <li class="mr-4  nav-item dropdown">
+                                   <a class="text nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Funcionario
+                                   </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                       <a class="dropdown-item" href="#">Ação</a>
+                                       <a class="dropdown-item" href="#">Outra ação</a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
+                                   </div>
+       
+                               </li>
+                               <li class="mr-4  nav-item dropdown">
+                                   <a class="text nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Cardapio
+                                   </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                       <a class="dropdown-item" href="#">Ação</a>
+                                       <a class="dropdown-item" href="#">Outra ação</a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
+                                   </div>
+       
+                               </li>
+                               <li class="mr-4  nav-item dropdown">
+                                   <a class="text nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Frota
+                                   </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                       <a class="dropdown-item" href="#">Ação</a>
+                                       <a class="dropdown-item" href="#">Outra ação</a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
+                                   </div>
+       
+                               </li>
+                               <li class="mr-4  nav-item dropdown">
+                                   <a class="text nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Dispesas
+                                   </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                       <a class="dropdown-item" href="#">Ação</a>
+                                       <a class="dropdown-item" href="#">Outra ação</a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
+                                   </div>
+       
+                               </li>
+                               <li class="mr-4  nav-item dropdown">
+                                   <a class="text nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        aplicativo
+                                   </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                       <a class="dropdown-item" href="#">Ação</a>
+                                       <a class="dropdown-item" href="#">Outra ação</a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
+                                   </div>
+       
+                               </li>
+                               <li class="mr-4  nav-item dropdown">
+                                   <a class="text nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Receber
+                                   </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                       <a class="dropdown-item" href="#">Ação</a>
+                                       <a class="dropdown-item" href="#">Outra ação</a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
+                                   </div>
+       
+                               </li>
+                               <li class="mr-4  nav-item dropdown">
+                                   <a class="text nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Informativo
+                                   </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                       <a class="dropdown-item" href="#">Ação</a>
+                                       <a class="dropdown-item" href="#">Outra ação</a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
+                                   </div>
+       
+                               </li>
+                               <li class="mr-4  nav-item dropdown">
+                                   <a class="text nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Estabelecimento
+                                   </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                       <a class="dropdown-item" href="#">Ação</a>
+                                       <a class="dropdown-item" href="#">Outra ação</a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
+                                   </div>
+       
+                               </li>
+
+                               <li class="mr-4 nav-item dropdown">
+                                   <a class="text nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Usuario
+                                   </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                       <a class="dropdown-item" href="#">Ação</a>
+                                       <a class="dropdown-item" href="#">Outra ação</a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
+                                   </div>
+       
+                               </li>
+                           </ul>
+       
+                       </div>
+
+                   </div>
+               </nav>
+
+           </div>
 
 
             
@@ -57,6 +152,7 @@
                 </div>
 
             </div>
+        
 
         </div>
         <div>
