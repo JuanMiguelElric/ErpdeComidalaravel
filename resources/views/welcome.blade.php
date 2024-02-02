@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+ 
         <title>ErpComida</title>
 
               
@@ -47,7 +48,7 @@
                                    Cardapio
                                    </a>
                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                       <a class="dropdown-item" href="#">Cardapio</a>
+                                       <a class="dropdown-item" href="/cardapioAlimenticio">Cardapio</a>
                                        <a class="dropdown-item" href="#">Chefe</a>
                                        <a class="dropdown-item" href="#">Cozinha</a>
                                        <a class="dropdown-item" href="#">Estoque</a>

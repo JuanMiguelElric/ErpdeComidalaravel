@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\HomeController@HOME');
 Route::get('/cardapioAlimenticio', 'App\Http\Controllers\CardapioController@Cardapio');
+Route::get('/cadastraralimentonocardapio', 'App\Http\Controllers\CardapioController@CadastrarAlimento');
 
-Auth::routes();
+//Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

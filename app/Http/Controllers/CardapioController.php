@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\DB;
 class CardapioController extends Controller
 {
     public static function CadastrarAlimento(){
+        return view('Cardapio/cadastro');
 
     }
     public static function Cardapio(){
@@ -20,7 +21,7 @@ class CardapioController extends Controller
     public static function CadastradoAlimento(Request $request){
         $nome = $request->input('nome');
         $ingredientes = $request->input('ingredientes');
-        $preco = $request->input('preco');
+        $preco = $request->input('price');
         $numero=$request->input('numero');
 
         DB::insert('inset into cardapioestabelecimento
