@@ -31,10 +31,14 @@
                                    Funcionario
                                    </a>
                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                       <a class="dropdown-item" href="#">Ação</a>
-                                       <a class="dropdown-item" href="#">Outra ação</a>
-                                       <div class="dropdown-divider"></div>
-                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
+                                       <a class="dropdown-item" href="#">Administrativo</a>
+                                       <a class="dropdown-item" href="#">Funcionários</a>
+                                       <a class="dropdown-item" href="#">Cadastro</a>
+                                       <a class="dropdown-item" href="#">Relatórios</a>
+                                       <a class="dropdown-item" href="#">Juridicos</a>
+                                       <a class="dropdown-item" href="#">Pagamentos</a>
+                                       <a class="dropdown-item" href="#">Escalas</a>
+                                       
                                    </div>
        
                                </li>
@@ -43,10 +47,17 @@
                                    Cardapio
                                    </a>
                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                       <a class="dropdown-item" href="#">Ação</a>
-                                       <a class="dropdown-item" href="#">Outra ação</a>
+                                       <a class="dropdown-item" href="#">Cardapio</a>
+                                       <a class="dropdown-item" href="#">Chefe</a>
+                                       <a class="dropdown-item" href="#">Cozinha</a>
+                                       <a class="dropdown-item" href="#">Estoque</a>
+                                       <a class="dropdown-item" href="#">Tributação</a>
+                                       <a class="dropdown-item" href="#">Aplicativos</a>
+                                       <a class="dropdown-item" href="#">Delivery</a>
+
+                                       <a class="dropdown-item" href="#">Vencimento Produtos</a>
                                        <div class="dropdown-divider"></div>
-                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
+                                       
                                    </div>
        
                                </li>
@@ -55,10 +66,11 @@
                                    Frota
                                    </a>
                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                       <a class="dropdown-item" href="#">Ação</a>
-                                       <a class="dropdown-item" href="#">Outra ação</a>
-                                       <div class="dropdown-divider"></div>
-                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
+                                       <a class="dropdown-item" href="#">Combustivel</a>
+                                       <a class="dropdown-item" href="#">Veiculos</a>
+                                       <a class="dropdown-item" href="#">Pagamentos</a>
+                                       <a class="dropdown-item" href="#">Admissões</a>
+
                                    </div>
        
                                </li>
@@ -67,8 +79,17 @@
                                    Dispesas
                                    </a>
                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                       <a class="dropdown-item" href="#">Ação</a>
-                                       <a class="dropdown-item" href="#">Outra ação</a>
+                                       <a class="dropdown-item" href="#">Receber</a>
+                                       <a class="dropdown-item" href="#">Pagar</a>
+                                       <a class="dropdown-item" href="#">Emprestimos</a>
+                                       <a class="dropdown-item" href="#">Notas</a>
+                                       <a class="dropdown-item" href="#">Combustivel</a>
+                                       <a class="dropdown-item" href="#">Juridicos</a>
+                                       <a class="dropdown-item" href="#">Controlle</a>
+                                       <a class="dropdown-item" href="#">Informativo</a>
+                                   
+                                       
+                                       
                                        <div class="dropdown-divider"></div>
                                        <a class="dropdown-item" href="#">Algo mais aqui</a>
                                    </div>
@@ -79,20 +100,30 @@
                                         aplicativo
                                    </a>
                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                       <a class="dropdown-item" href="#">Ação</a>
-                                       <a class="dropdown-item" href="#">Outra ação</a>
-                                       <div class="dropdown-divider"></div>
-                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
+                                       <a class="dropdown-item" href="#">Aplicativos</a>
+                                       <a class="dropdown-item" href="#">Administrativo</a>
+                                       <a class="dropdown-item" href="#">Aprovados</a>
+                                       <a class="dropdown-item" href="#">Cancelamentos</a>
+                                       <a class="dropdown-item" href="#">Funcionarios</a>
+                                       <a class="dropdown-item" href="#">Veiculos</a>
                                    </div>
        
                                </li>
                                <li class="mr-4  nav-item dropdown">
                                    <a class="text nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                   Receber
+                                   Administrativo
                                    </a>
                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                       <a class="dropdown-item" href="#">Ação</a>
-                                       <a class="dropdown-item" href="#">Outra ação</a>
+                                       <a class="dropdown-item" href="#">Cadastro F</a>
+                                       <a class="dropdown-item" href="#">Relatórios</a>
+                                       <a class="dropdown-item" href="#">Setores</a>
+                                       <a class="dropdown-item" href="#">Pagamentos</a>
+                                       <a class="dropdown-item" href="#">Receber</a>
+                                       <a class="dropdown-item" href="#">juridico</a>
+                                       <a class="dropdown-item" href="#">Cardapio</a>
+                                       <a class="dropdown-item" href="#">Chefe</a>
+                                       <a class="dropdown-item" href="#">Controle</a>
+                                       <a class="dropdown-item" href="#">Informativo</a>
                                        <div class="dropdown-divider"></div>
                                        <a class="dropdown-item" href="#">Algo mais aqui</a>
                                    </div>
@@ -102,24 +133,14 @@
                                    <a class="text nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                    Informativo
                                    </a>
-                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                       <a class="dropdown-item" href="#">Ação</a>
-                                       <a class="dropdown-item" href="#">Outra ação</a>
-                                       <div class="dropdown-divider"></div>
-                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
-                                   </div>
+       
        
                                </li>
                                <li class="mr-4  nav-item dropdown">
                                    <a class="text nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                    Estabelecimento
                                    </a>
-                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                       <a class="dropdown-item" href="#">Ação</a>
-                                       <a class="dropdown-item" href="#">Outra ação</a>
-                                       <div class="dropdown-divider"></div>
-                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
-                                   </div>
+                               
        
                                </li>
 
@@ -128,10 +149,11 @@
                                    Usuario
                                    </a>
                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                       <a class="dropdown-item" href="#">Ação</a>
-                                       <a class="dropdown-item" href="#">Outra ação</a>
-                                       <div class="dropdown-divider"></div>
-                                       <a class="dropdown-item" href="#">Algo mais aqui</a>
+                                       <a class="dropdown-item" href="#">Perfil</a>
+                                       <a class="dropdown-item" href="#">Licença</a>
+                                       <a class="dropdown-item" href="#">Configurações</a>
+                                       <a class="dropdown-item" href="#">Sair</a>
+                                       
                                    </div>
        
                                </li>
