@@ -8,7 +8,7 @@
     <form action="/refeicaofoicadastradacomsucesso">
     {{ csrf_field() }}
     <label for="">Nome</label>
-    <input name="Nome" type="text">
+    <input name="Nome" id="nome" onchange="nomeAlimento()" type="text">
     <label for="">Ingrediente</label> <br>
     <textarea name="Ingredientes" id="" cols="30" rows="10"></textarea> <br>
     <label for="">preço</label>

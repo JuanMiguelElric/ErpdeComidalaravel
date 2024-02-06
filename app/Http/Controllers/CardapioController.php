@@ -28,7 +28,7 @@ class CardapioController extends Controller
         (Nome,Ingredientes,price,Alimentonum) values(?,?,?,?)',
         array($nome,$ingredientes,$preco,$numero));
 
-        return view('/refeicaofoicadastradacomsucesso');
+        return view('requisicao/cardapio');
 
     }
 }
