@@ -15,7 +15,7 @@
     <span></span>
     <br>
     <label for="">preço</label>
-    <input  type="text" name="price" id="">
+    <input  type="text" name="price" onkeyup="preco(this,event)" id="">
     <span></span>
     <label for="">Codigo</label>
     <input name="Alimentonum" class="mb-2" type="text"> <br> <br>
