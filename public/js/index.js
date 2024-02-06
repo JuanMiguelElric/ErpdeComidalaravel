@@ -34,9 +34,16 @@ function Ingredientes() {
 
     // Verificando se o campo está vazio
     if (ingredientes.length === 0) {
+        mensagemIng.style.color = "red";
+        mensagemIng.textContent = "o Campo tem que ser preenchido"
         alert('Erro: O campo não pode estar vazio.');
     } else if (ingredientes.length > 300) { // Verificando se a descrição ultrapassa o limite
         alert('Erro: A descrição ultrapassou o limite de caracteres.');
+        mensagemIng.style.color = "red";
+        mensagemIng.textContent = "Você excedeu o limite estabelecido no seu banco de dados"
+    }else{
+        mensagemIng.style.color = "green";
+        mensagemIng.textContent = "Campo preenchido corretamente";
     }
 
     console.log('ingredientes');
@@ -50,7 +57,7 @@ function preco(campo,evento){
     var tecla = (!evento)?window.event.keyCode : evento.which;
     var valor = campo.value.replace(/[^\d]+/gi,'').reverse();
     var resultado = "";
-    var mascara = '##.###.###,##'.reverse();
+    var mascara = 'R$###,##'.reverse() || "R$##,##".reverse();
     for(var x=0, y=0; x<mascara.length && y<valor.length;){
         if(mascara.charAt(x) != '#'){
             resultado += mascara.charAt(x);
@@ -63,3 +70,10 @@ function preco(campo,evento){
     }
     campo.value= resultado.reverse();
 }
+
+let envio = document.querySelector('#enviar');
+envio = addEventListener('submit',function(event){
+    event.preventDefault
+
+    console.log('Fui enviado');
+});
