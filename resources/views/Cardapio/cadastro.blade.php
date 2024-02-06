@@ -5,17 +5,17 @@
     <h1>Cadastrar Alimento</h1>
 </div>
 <div>
-    <form action="">
+    <form action="/refeicaofoicadastradacomsucesso">
     {{ csrf_field() }}
     <label for="">Nome</label>
-    <input type="text">
+    <input name="Nome" type="text">
     <label for="">Ingrediente</label> <br>
-    <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+    <textarea name="Ingredientes" id="" cols="30" rows="10"></textarea> <br>
     <label for="">preço</label>
-    <input type="text" name="" id="">
+    <input  type="text" name="price" id="">
     <label for="">Codigo</label>
-    <input type="text"> <br>
-    <button class="btn btn-sucess btn-lg btn-block">Cadastrar</button>
+    <input name="Alimentonum" class="mb-2" type="text"> <br> <br>
+    <button class="btn btn-sucess btn-lg btn-block" type="submit">Cadastrar</button>
     </form>
 </div>
 

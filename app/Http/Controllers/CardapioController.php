@@ -19,14 +19,16 @@ class CardapioController extends Controller
 
     }
     public static function CadastradoAlimento(Request $request){
-        $nome = $request->input('nome');
-        $ingredientes = $request->input('ingredientes');
+        $nome = $request->input('Nome');
+        $ingredientes = $request->input('Ingredientes');
         $preco = $request->input('price');
-        $numero=$request->input('numero');
+        $numero=$request->input('Alimentonum');
 
-        DB::insert('inset into cardapioestabelecimento
-        (nome,ingredientes,price,numero) values(?,?,?,?)',
+        DB::insert('insert into cardapioestabelecimento
+        (Nome,Ingredientes,price,Alimentonum) values(?,?,?,?)',
         array($nome,$ingredientes,$preco,$numero));
+
+        return view('/refeicaofoicadastradacomsucesso');
 
     }
 }
