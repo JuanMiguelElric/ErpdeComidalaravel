@@ -19,6 +19,7 @@ Route::get('/cardapioAlimenticio', 'App\Http\Controllers\CardapioController@Card
 Route::get('/cadastraralimentonocardapio', 'App\Http\Controllers\CardapioController@CadastrarAlimento');
 Route::post('/refeicaofoicadastradacomsucesso', 'App\Http\Controllers\CardapioController@CadastradoAlimento');
 Route::get('/listagemdosfuncionarios','App\Http\Controllers\FuncionariosController@listarFuncionarios');
+Route::get('/cadastrofuncionario','App\Http\Controllers\FuncionariosController@CadastrarFuncionario');
 
 //Auth::routes();
 

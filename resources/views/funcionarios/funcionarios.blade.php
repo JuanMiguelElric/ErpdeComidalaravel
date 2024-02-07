@@ -4,7 +4,7 @@
 <div class="container">
     <h1>Funcionários</h1>
     <div class="row">
-        <div class="col-12 m-5">
+        <div class="col-12 m-5 align-itens-center">
             <div class="input-group">
                 <div>
                     <input type="text" class="pesquisar form-control" style="width: 700px;">
@@ -17,6 +17,14 @@
                     </svg>
                 </button>
 
+            </div>
+        </div>
+        <div class="col-12 m-5 pl-5">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filter" viewBox="0 0 16 16">
+                    <path d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5m-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+                </svg>
+                <p>filtro</p>
             </div>
         </div>
     </div>

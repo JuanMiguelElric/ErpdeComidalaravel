@@ -13,4 +13,7 @@ class FuncionariosController extends Controller
         return view('funcionarios/funcionarios')->with('funcionarios',$funcionario);
 
     }
+    public function CadastrarFuncionario(){
+        return view('funcionarios/cadastro');
+    }
 }
