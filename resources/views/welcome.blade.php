@@ -196,6 +196,7 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script> 
         <script src="{{ asset('js/index.js') }}"></script>
+        <script src="{{ asset('js/cep.js') }}"></script>
         <script src="{{ asset('js/Ajaxcadastro.js') }}" type="text/javascript"></script>
     </body>
 </html>

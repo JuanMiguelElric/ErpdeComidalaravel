@@ -25,28 +25,29 @@
                     </div>
                     <div class="form-group col-md-3">
                         <label for="">Cep:</label>
-                        <input type="text">
+                        <input id="cep" onchange="checkCep(event)" type="text">
+
         
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-3">
                         <label for="">Cidade</label>
-                        <input type="text">
+                        <input id="cidade" type="text">
                     </div>
                     <div class="form-group col-md-3">
                         <label for="">Endereço</label>
-                        <input type="text">
+                        <input id="endereco" type="text">
         
                     </div>
                     <div class="form-group col-md-3">
                         <label for="">Bairro</label>
-                        <input type="text">
+                        <input id="bairro" type="text">
         
                     </div>
                     <div class="form-group col-md-3">
                         <label for="">Complemento</label>
-                        <input type="text">
+                        <input id="complemento" type="text">
         
                     </div>
                     <div class="form-group col-md-6">
