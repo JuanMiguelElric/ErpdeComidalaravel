@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class funcionarios extends Model
 {
     protected $table = 'funcionarioslist';
-    protected $timestamps = true;
+    public $timestamps = true;
 }
