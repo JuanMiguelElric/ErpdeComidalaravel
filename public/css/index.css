@@ -71,6 +71,14 @@ li p.navbar-text, a.navbar-brand {
     text-decoration: none;
 }
 form {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.formcardapio {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;

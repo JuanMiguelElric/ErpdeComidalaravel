@@ -13,7 +13,21 @@ class FuncionariosController extends Controller
         return view('funcionarios/funcionarios')->with('funcionarios',$funcionario);
 
     }
-    public function CadastrarFuncionario(){
+    public function CadastrarFuncionario(Request $request){
+
         return view('funcionarios/cadastro');
+    }
+    public function SalvarDadosFuncionario(Request $request){
+       $nome = $request->input();
+       $sobrenome = $request->input();
+       $email = $request->input();
+       $cep= $request->input();
+       $cidade = $request->input();
+       $endereco = $request->input();
+       $bairro = $request->input();
+       $complemento = $request->input();
+       $nascimento = $request->input();
+       $veiculo = $request->input();
+       $setor= $request->input();
     }
 }

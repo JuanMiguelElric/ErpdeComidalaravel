@@ -5,7 +5,7 @@
     <h1>Cadastrar Alimento</h1>
 </div>
 <div>
-    <form  action="/refeicaofoicadastradacomsucesso" method="POST">
+    <form class="formcardapio"  action="/refeicaofoicadastradacomsucesso" method="POST">
     {{ csrf_field() }}
 
     <label for="">Nome</label>
