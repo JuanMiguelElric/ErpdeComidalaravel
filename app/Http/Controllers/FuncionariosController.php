@@ -19,26 +19,35 @@ class FuncionariosController extends Controller
         return view('funcionarios/cadastro');
     }
     public function SalvarDadosFuncionario(Request $request){
-       $nome = $request->input();
-       $sobrenome = $request->input();
-       $email = $request->input();
-       $cep= $request->input();
-       $cidade = $request->input();
-       $endereco = $request->input();
-       $bairro = $request->input();
-       $complemento = $request->input();
-       $nascimento = $request->input();
-       $cargo = $request->input();
-       $veiculo = true;
-       $setor= $request->input();
+       $nome = $request->input('nome');
+       $sobrenome = $request->input('sobrenome');
+       $email = $request->input('email');
+       $cep= $request->input('cep');
+       $cidade = $request->input('cidade');
+       $endereco = $request->input('endereco');
+       $bairro = $request->input('bairro');
+       $complemento = $request->input('complemento');
+       $nascimento = $request->input('nascimento');
+       $cargo = $request->input('cargo');
+       $veiculo = $request->input('veiculo');
+       $setor= $request->input('setor');
+       $cpf = $request->input('cpf');
+       $rg = $request->input('rg');
+       $pis = $request->input('pis');
+       $telefone1 = $request->input('telefone1');
+       $NomeMae = $request->input('NomeMae');
+       $banco = $request->input('banco');
+       $agencia = $request->input('agencia');
+       $conta = $request->input('conta');
 
        DB::insert('insert into funcionarioslist
-       (nome,sobrenome,email,endereco,cep,nascimento,cargo,veiculo, setor, cidade, bairro, complemento)
-       values(?,?,?,?,?,?,?,?,?,?,?)',array($nome,$sobrenome, $email, $endereco, $cep, $nascimento, $cargo, $veiculo, $setor, $cidade, $bairro, $complemento));
+       (nome,sobrenome,email,endereco,cep,nascimento,cargo,veiculo, setor, cidade, bairro, complemento, cpf, rg,pis, telefone1,NomeMae, banco, agencia, conta)
+       values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
+       array($nome,$sobrenome, $email, $endereco, $cep, $nascimento, 
+       $cargo, $veiculo, $setor, $cidade, $bairro, $complemento, $cpf,
+        $rg,$pis,$telefone1, $NomeMae, $banco, $agencia, $conta));
        
        return view('funcionarios/informacoes');
     }
-    public function maisinformacoesFuncionario(){
-        return view('funcionarios/informacoes');
-    }
+
 }
