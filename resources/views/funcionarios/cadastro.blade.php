@@ -50,18 +50,27 @@
                         <input id="complemento" type="text">
         
                     </div>
-                    <div class="form-group col-md-6">
+                    <div class="form-group col-md-4">
                         <label for="">Nascimento</label>
                         <input type="text">
         
                     </div>
-                    <div class="form-group col-md-6">
+                    <div class="form-group col-md-4">
                         <label for="">Veiculo</label>
                         <select class="form-control" name="" id="">
                             <option value="">Sim</option>
                             <option value="">Não</option>
                         </select>
         
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="">Cargo</label>
+                        <select name="" class="form-control" id="">
+                            <option value="">Administração</option>
+                            <option value="">Caixa</option>
+                            <option value="">Garçon</option>
+                            <option value="">Entregador</option>
+                        </select>
                     </div>
                 </div>
                 <label for="">Setor</label>
