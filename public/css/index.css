@@ -147,7 +147,20 @@ button:hover {
 }
 .navbar-danger .bg-danger {
     background-color: #FF0000;
+}
+.c-loader{
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #51d4db;
+    height: 14em;
+    width: 14em;
 }  
+@keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+}
 @media (max-width: 600px) {
     form {
         max-width: 100%;

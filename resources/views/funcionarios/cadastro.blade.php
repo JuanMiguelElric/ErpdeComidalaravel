@@ -37,7 +37,7 @@
                     </div>
                     <div class="form-group col-md-3">
                         <label for="">Endereço</label>
-                        <input name="cidade" id="endereco" placeholder="Endereço" type="text">
+                        <input name="logradouro" id="endereco" placeholder="Endereço" type="text">
         
                     </div>
                     <div class="form-group col-md-3">
@@ -103,7 +103,7 @@
                         </div>
                         <div class="form-group col-md-6">
                             Telefone 2 
-                            <input  type="text" >
+                            <input  type="text" placeholder="Digite um segundo telefone">
                         </div>
                         <div class="form-group col-md-12">
                             Banco 
@@ -125,7 +125,7 @@
                     </div>
                 </div>
                 <br>
-                <button class="mt-5 btn btn-sucess btn-lg btn-block" >Enviar</button>
+                <button class="mt-5 btn btn-sucess btn-lg btn-block" type="submit" >Enviar</button>
             </form>
 
         </div>

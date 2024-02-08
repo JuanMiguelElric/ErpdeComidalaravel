@@ -24,7 +24,7 @@ class FuncionariosController extends Controller
        $email = $request->input('email');
        $cep= $request->input('cep');
        $cidade = $request->input('cidade');
-       $endereco = $request->input('endereco');
+       $endereco = $request->input('logradouro');
        $bairro = $request->input('bairro');
        $complemento = $request->input('complemento');
        $nascimento = $request->input('nascimento');
@@ -41,9 +41,9 @@ class FuncionariosController extends Controller
        $conta = $request->input('conta');
 
        DB::insert('insert into funcionarioslist
-       (nome,sobrenome,email,endereco,cep,nascimento,cargo,veiculo, setor, cidade, bairro, complemento, cpf, rg,pis, telefone1,NomeMae, banco, agencia, conta)
+       (nome,sobrenome,email,cep, logradouro,nascimento,cargo,veiculo, setor, cidade, bairro, complemento, cpf, rg,pis, telefone1,NomeMae, banco, agencia, conta)
        values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
-       array($nome,$sobrenome, $email, $endereco, $cep, $nascimento, 
+       array($nome,$sobrenome, $email,  $cep, $endereco, $nascimento, 
        $cargo, $veiculo, $setor, $cidade, $bairro, $complemento, $cpf,
         $rg,$pis,$telefone1, $NomeMae, $banco, $agencia, $conta));
        
