@@ -6,7 +6,7 @@
         <div class="col-12">
             <h1>Cadastrar Funcionário</h1>
             <form class="mt-5 p-5" action="">
-                <h2 class="text-center">Primeiras informações</h2>
+                <h2 class="text-center"> informações do funcionario</h2>
                 <div class="form-row">
                     <div class="form-group col-md-3">
                         <label for="">Nome</label>
@@ -73,9 +73,54 @@
                             <option value="">Monobrista</option>
                         </select>
                     </div>
+                    <div class="form-group col-md-12">
+                        <label for="">Setor</label>
+                        <input type="text">
+
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="">CPF</label>
+                            <input type="text" onchange="mascaraCpf(this,event)" class="form-control">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="">RG</label>
+                            <input type="text" onchange="mascaraRg(this,event)" class="form-control">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="">Pis</label>
+                            <input type="text" onchange="mascaraPis(this,event)" class="form-control">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="">Nome da mãe</label>
+                            <input type="text" placeholder="Se não possuir favor escrever = 'não possui' ">
+
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            Telefone 1
+                            <input onchange="mascaraPhone(this,event)" type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                            Telefone 2 
+                            <input  type="text">
+                        </div>
+                        <div class="form-group col-md-12">
+                            Banco 
+                            <select name="" class="form-control" id="">
+                                <option value="">Banco Do Brasil</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            Agencia 
+                            <input type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                            Conta 
+                            <input type="text">
+                        </div>
+                    </div>
                 </div>
-                <label for="">Setor</label>
-                <input type="text">
                 <br>
                 <button class="mt-5 btn btn-sucess btn-lg btn-block" >Enviar</button>
             </form>
