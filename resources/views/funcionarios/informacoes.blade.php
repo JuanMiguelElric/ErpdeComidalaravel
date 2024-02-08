@@ -8,11 +8,11 @@
             <div class="form-row">
                 <div class="form-group col-md-4">
                     <label for="">CPF</label>
-                    <input type="text" class="form-control">
+                    <input type="text" onchange="mascaraCpf(this,event)" class="form-control">
                 </div>
                 <div class="form-group col-md-4">
                     <label for="">RG</label>
-                    <input type="text" class="form-control">
+                    <input type="text" onchange="mascaraRg(this,event)" class="form-control">
                 </div>
                 <div class="form-group col-md-4">
                     <label for="">Pis</label>

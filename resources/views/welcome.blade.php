@@ -197,6 +197,7 @@
         crossorigin="anonymous"></script> 
         <script src="{{ asset('js/index.js') }}"></script>
         <script src="{{ asset('js/cep.js') }}"></script>
+        <script src="{{ asset('js/mask.js') }}"></script>
         <script src="{{ asset('js/Ajaxcadastro.js') }}" type="text/javascript"></script>
     </body>
 </html>
