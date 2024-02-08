@@ -70,6 +70,7 @@
                             <option value="">Caixa</option>
                             <option value="">Garçon</option>
                             <option value="">Entregador</option>
+                            <option value="">Monobrista</option>
                         </select>
                     </div>
                 </div>

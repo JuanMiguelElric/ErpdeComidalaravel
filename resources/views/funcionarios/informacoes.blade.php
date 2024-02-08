@@ -32,6 +32,18 @@
                     Telefone 2 
                     <input type="text">
                 </div>
+                <div class="form-group col-md-12">
+                    Banco 
+                    <input type="text">
+                </div>
+                <div class="form-group col-md-6">
+                    Agencia 
+                    <input type="text">
+                </div>
+                <div class="form-group col-md-6">
+                    Conta 
+                    <input type="text">
+                </div>
             </div>
             <button class="mt-5 btn btn-sucess btn-lg btn-block">Enviar Dados</button>
 
