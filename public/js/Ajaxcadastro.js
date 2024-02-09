@@ -1,19 +1,23 @@
-console.log("olá, eu sou utilizado para requisições AJAX");
+axios.defaults.headers.post['X-CSRF-TOKEN']= document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+saveData = function(){
+    let nomealiemento = document.querySelector('input[name = "Nome"]').value
+    let descriIngredientes = document.querySelector('textarea[name = "Ingredientes"]').value
+    let price = document.querySelector('input[name="price"]').value
+    let Alimentonum = document.querySelector('input[name = "AlimentoNum"]').value
+    axios.post('/reports',{
+        Nome:nomealiemento,
+        ingredientes:descriIngredientes,
+        price:price,
+        AlimentoNum:Alimentonum
 
-$(document).ready(function(){
-    // Quando o usuário clicar em cadastrar, serão realizadas as etapas a seguir
-    $('#enviar').click(function(){
-        var dados = $('#cadCardapio').serialize(); // Corrigi o seletor para '#cadCardapio' e a função para 'serialize()'
-        $.ajax({
-            type: 'POST', // Alterei para POST, pois geralmente os formulários de cadastro enviam dados via POST
-            dataType: 'json',
-            url: '/refeicaofoicadastradacomsucesso', // Corrigi a chave 'URL' para 'url'
-            async: true,
-            data: dados,
-            success: function(response){
-                location.reload(); // Recarrega a página após o sucesso da requisição
-            }
-        });
-        return false; // Impede o envio do formulário padrão
-    });
-});
+    })
+    .then(function(response){
+        if(response.status == "200"){
+            window.location.href ="/refeicaofoicadastradacomsucesso";
+            console.log('enviado')
+        }
+    })
+    .catch(function(error){
+        console.log(error)
+    })
+}
