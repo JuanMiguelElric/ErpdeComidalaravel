@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-12">
             <h1>Cadastrar Funcionário</h1>
-            <form class="mt-5 p-5" action="/DadosdofuncionariofoiSalvo">
+            <form class="mt-5 p-5" action="/DadosdofuncionariofoiSalvo" method="POST">
                 <h2 class="text-center"> informações do funcionario</h2>
                 <div class="form-row">
                     <div class="form-group col-md-3">

@@ -42,7 +42,10 @@
                 <td>{{$funcionario->nome}}</td>
                 <td>{{$funcionario->sobrenome}}</td>
                 <td>{{$funcionario->cargo}}</td>
-                <td><a href="#">informações</a></td>
+                <td>
+                    <a href="/informacoesdofuncionario/{{$funcionario->id}}">informações</a>
+
+                </td>
                 <td>{{$funcionario->email}}</td>
                 <td>{{$funcionario->setor}}</td>
             </tr>

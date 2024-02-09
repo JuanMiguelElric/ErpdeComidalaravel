@@ -49,5 +49,13 @@ class FuncionariosController extends Controller
        
        return view('funcionarios/informacoes');
     }
+    //controller para informar as informações de cada funcionário
+    public function InformativocadaFuncionario($id){
+        $resposta = DB::table('funcionarioslist')->where('id',$id)->first();
+        if(empty($resposta)){
+            return  "Esse funcionário não existe";
+        }
+        return view('funcionarios/informativo')->with('funcionario',$resposta);
+    }
 
 }
