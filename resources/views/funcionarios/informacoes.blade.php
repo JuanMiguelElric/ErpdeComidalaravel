@@ -10,21 +10,37 @@
 
             </div>
             <div class="mt-5 col-12">
-                <div ><h2 id="resposta"></h2></div>
+                
+            <script>
+                setTimeout(function(){
+                    let mensgem = document.createElement('h2');
+                    mensgem.textContent = "Armazenando Dados do funcionário";
+                    mensgem.classList.add('text-center');
+                    document.body.appendChild(mensgem);
+                    setTimeout(function(){
+                        mensgem.remove();
+                        let mensagem = document.createElement('h2');
+                        mensagem.textContent = "Aguarde mais uns instantes";
+                        mensagem.classList.add('text-center');
+                        document.body.appendChild(mensagem);
+                        setTimeout(function(){
+                            mensagem.remove();
+                            let mensagem1 = document.createElement('h2');
+                            mensagem1.textContent = "Dados Salvos com sucesso";
+                            mensagem1.classList.add('text-center');
+                            document.body.appendChild(mensagem1);
+                            window.location.href = "/listagemdosfuncionarios";
+    
+    
+                        },1000)
+                    },1000)
+                },2000)
+            </script>
 
             </div>
         </div>
         
             <br>
-            <script>
-                function Validando(){
-                    console.log('Validando dados');
-                    let resposta = document.getElementById("resposta");
-                    resposta.textContent = "Dados sendo Processado";
-                    resposta.textContent = "Dados cadastrados com sucesso"
-                }
-                setTimeout(Validando,5000);
-            </script>
         
     </div>
 </div>

@@ -116,11 +116,11 @@
                         </div>
                         <div class="form-group col-md-6">
                             Agencia 
-                            <input name="agencia" type="text">
+                            <input name="agencia" placeholder="xxx" type="text">
                         </div>
                         <div class="form-group col-md-6">
                             Conta 
-                            <input name="conta" type="text">
+                            <input name="conta" placeholder="xxxxxxx" type="text">
                         </div>
                     </div>
                 </div>

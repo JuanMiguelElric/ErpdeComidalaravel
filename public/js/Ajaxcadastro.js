@@ -1,4 +1,4 @@
-axios.defaults.headers.post['X-CSRF-TOKEN']= document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+
 saveData = function(){
     let nomealiemento = document.querySelector('input[name = "Nome"]').value
     let descriIngredientes = document.querySelector('textarea[name = "Ingredientes"]').value
