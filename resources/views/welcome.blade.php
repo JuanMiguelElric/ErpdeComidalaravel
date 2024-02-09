@@ -39,7 +39,7 @@
                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                        <a class="dropdown-item" href="#">Administrativo</a>
                                        <a class="dropdown-item" href="/listagemdosfuncionarios">Funcionários</a>
-                                       <a class="dropdown-item" href="#">Cadastro</a>
+                                       <a class="dropdown-item" href="/cadastrofuncionario">Cadastro</a>
                                        <a class="dropdown-item" href="#">Relatórios</a>
                                        <a class="dropdown-item" href="#">Juridicos</a>
                                        <a class="dropdown-item" href="#">Pagamentos</a>
